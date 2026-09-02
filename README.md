@@ -54,6 +54,7 @@ initialize() {
 
 
 2 - File for the generative adversarial network (GAN) 
+
 Python script for the GAN
 "CNN_Duffy_Null_s_T_p0.py"
 
@@ -62,6 +63,7 @@ Python script for the GAN
 
 
 3 - Python script for the convolutional neural network (CNN)
+
 Python script for the CNN
 
 
