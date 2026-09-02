@@ -65,21 +65,10 @@ Python script for the GAN
 3 - Python script for the convolutional neural network (CNN)
 
 Python script for the CNN
+"CNN_Duffy_Null_s_T_p0.py"
+
+Settings for running CNN_Duffy_Null_s_T_p0.py
 
 
-Settings for convolution layers
-	Ex. Conv1D	28	10	my1Dconvolution_2
-	"Conv1D" calls for	keras.layers.Conv1D( 28 , kernel_size=10, input_shape=input_shape, name=name[i])
 
-Settings for  Pooling layers
-	Ex. Pool1D	2	NA	myMaxPool_2
-	"Pool1D" calls for	keras.layers.MaxPooling1D(pool_size=poolsize)
-
-Settings for  Flaten layers
-	Ex. Flatten	NA	NA	myFlatten_1
-	"Flatten" calls for	layers.Flatten()(x)
-
-Settings for  Pooling layers
-	Ex. Dense	128	NA	myDense_1
-	"Dense" calls for	keras.layers.Dense(nbdense, activation=tf.nn.relu)(x)
 
