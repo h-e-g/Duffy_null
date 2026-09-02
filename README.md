@@ -61,14 +61,27 @@ Python script for the GAN
 
 
 
+-------------
 
 3 - Python script for the convolutional neural network (CNN)
 
 Python script for the CNN
 "CNN_Duffy_Null_s_T_p0.py"
 
-Settings for running CNN_Duffy_Null_s_T_p0.py
 
+"SETTINGS_MAIN.txt" sets options for running CNN_Duffy_Null_s_T_p0.py
+
+	#Name_option	#value
+	"SLICE"	diHH-Fst
+	"first"	1000
+	"last"	3500
+	"POINTESTIM"	AVERAGE
+	"pseudoempirical_only"	PSEUDOEMPIRICAL_ONLY
+	"analyse"	100K
+	"file_location"	.
+	"output_location"	../outputs_cnn
+	"lineage"	eRHG
+	"pop"	Mbuti
 
 
 
