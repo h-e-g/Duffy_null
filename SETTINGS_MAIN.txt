@@ -1,0 +1,11 @@
+#Name_option	#value
+"SLICE"	diHH-Fst
+"first"	1000
+"last"	3500
+"POINTESTIM"	AVERAGE
+"pseudoempirical_only"	PSEUDOEMPIRICAL_ONLY
+"analyse"	100K
+"file_location"	.
+"output_location"	../outputs_cnn
+"lineage"	eRHG
+"pop"	Mbuti
