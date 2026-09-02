@@ -65,8 +65,9 @@ Python script for the GAN
 
 3 - Python script for the convolutional neural network (CNN)
 
-Python script for the CNN
 "CNN_Duffy_Null_s_T_p0.py"
+
+
 	# -*- coding: utf-8 -*-
 	"""
 	Guillaume laval: 31/08/2026
