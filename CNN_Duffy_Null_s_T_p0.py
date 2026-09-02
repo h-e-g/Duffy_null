@@ -39,7 +39,7 @@ from scipy import stats
 
 #############   LOADING MAIN SETTINGS       ##############################################
 #
-settings_main   ='SETTINGS_MAIN.txt'
+settings_main   ='SETTINGS_CNN_MAIN.txt'
 myfile = open(settings_main, "r")
 header = myfile.readline();
 ##### Reading the number of epochs for training
