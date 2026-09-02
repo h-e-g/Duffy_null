@@ -6,12 +6,12 @@ A preliminary study can be found via biorxiv website.
 
 
 
+
+-----------
 ##### Simulation files
 
 1 - SLiM_Figure_3.txt and SLiM_Figure_S11.txt
 Text files to set the SLiM simulations performed in this manuscript. 
-
------------
 initialize() {
 	
 	//####### POPULATION NOMENCLURE ######################################################
