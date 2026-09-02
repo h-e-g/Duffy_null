@@ -80,7 +80,7 @@ verbose=My_verbose;
 
 #############   LOADING SETTINGS FOR CNN    ###################################
 #
-settings_cnn   ='SETTINGS_DISCRIMINATOR.txt'
+settings_cnn   ='SETTINGS_ARCHITECTURE.txt'
 myfile = open(settings_cnn, "r")
 ##### Reading the number of epochs for training
 myline = myfile.readline(); myline = myline.replace('\n', ''); myline = myline.replace('\r', '') ; x = myline.split("\t")
