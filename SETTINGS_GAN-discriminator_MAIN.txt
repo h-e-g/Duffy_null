@@ -1,0 +1,12 @@
+#Name_option	#value
+"usage"	PREDICTION
+"Ntraining"	10000
+"Ncross"	10000
+"Nsnp"	100000
+"file_training_X"	gan_selfreq.txt.train.txt
+"file_training_Y"	label.txt.train.txt
+"file_crossval_X"	gan_selfreq.txt.cross.Yoruba_Orcadian_CHR1.txt
+"file_crossval_Y"	label.txt.cross.Yoruba_Orcadian_CHR1.txt
+"file_empirical_x"	gan_selfreq.txt.empirical.txt
+"name_model"	discriminator
+"verbose"	VERBOSE
