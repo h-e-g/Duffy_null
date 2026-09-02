@@ -1,0 +1,3 @@
+NumEpochs	3
+Dense	240	NA	NA
+Dense	60	NA	NA
