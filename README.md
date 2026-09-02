@@ -67,6 +67,40 @@ Python script for the GAN
 
 Python script for the CNN
 "CNN_Duffy_Null_s_T_p0.py"
+	# -*- coding: utf-8 -*-
+	"""
+	Guillaume laval: 31/08/2026
+	A Deep learning alforithm to jointly estimate
+	- s (selection coefficient)
+	- T	(osnset of selection)
+	- p0(frequency at the onset of selection)
+	"""
+
+	import os
+	print( os.getcwd() )
+	
+	import sys
+	print ('Number of arguments:', len(sys.argv), 'arguments.');
+	print ('Argument List:', str(sys.argv));
+	
+	jobfolder=sys.argv[1];
+	snp_name=sys.argv[2];
+	Ngenot=int(sys.argv[3]);
+
+	print ('jobfolder:', jobfolder);
+	print ('snp_name:', snp_name);
+	print ('Nstat:', Ngenot);
+	#exit();
+	
+	# Import numpy& tensorflow
+	import numpy as np
+	import tensorflow as tf
+	# Import library to view images
+	import matplotlib.pyplot as plt
+	from scipy import stats
+
+
+
 
 
 "SETTINGS_MAIN.txt" sets options for running CNN_Duffy_Null_s_T_p0.py
